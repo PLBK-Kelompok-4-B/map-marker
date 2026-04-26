@@ -6,10 +6,6 @@ const markersDiki = [
   },
 ];
 
-const markersDayat = [
-  // Isi marker Mahardika di sini
-];
+const markersDayat = [];
 
-const markersMirdas = [
-  // Isi marker Irfan di sini
-];
+const markersMirdas = [];
