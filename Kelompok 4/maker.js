@@ -8,4 +8,10 @@ const markersDiki = [
 
 const markersDayat = [];
 
-const markersMirdas = [];
+const markersMirdas = [
+  {
+    nama: "Kost Mirdas",
+    lat: 5.536173228325334,
+    lng: 95.36832080155442,
+  },
+];
