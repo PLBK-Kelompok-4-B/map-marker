@@ -21,3 +21,11 @@ const markersMirdas = [
     lng: 95.36832080155442,
   },
 ];
+
+const markersGudang = [
+  {
+    nama: "Gudang Kopi",
+    lat: 5.571398188566312,
+    lng: 95.3499128301265,
+  }
+]
