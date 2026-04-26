@@ -40,6 +40,7 @@
         diki: "#e67e22",
         dayat: "#9b59b6",
         mirdas: "#1abc9c",
+        gudang: "#e74c3c",
       };
 
       const daftarLokasi = [];
@@ -82,7 +83,8 @@
 
       tambahMarkers(markersDiki, warna.diki, "Diki");
       tambahMarkers(markersDayat, warna.dayat, "Dayat");
-      tambahMarkers(markersMirdas, warna.mirdas, "Mirdas");
+      tambahMarkers(markersMirdas, warna.mirdas, "Amirul Mirdas");
+      tambahMarkers(markersGudang, warna.gudang, "Amirul Mirdas");
 
       function renderLokasiButtons() {
         const container = document.getElementById("lokasi-buttons");
@@ -111,7 +113,7 @@
       renderLokasiButtons();
 
       const total =
-        markersDiki.length + markersDayat.length + markersMirdas.length;
+        markersDiki.length + markersDayat.length + markersMirdas.length + markersGudang.length;
       document.getElementById("total-marker").textContent = total + " lokasi";
 
       const legend = L.control({ position: "bottomright" });
@@ -127,6 +129,9 @@
       </div>
       <div class="legend-item">
         <div class="legend-dot" style="background:${warna.mirdas}"></div> Mirdas (${markersMirdas.length})
+      </div>
+      <div class="legend-item">
+        <div class="legend-dot" style="background:${warna.gudang}"></div> Gudang (${markersGudang.length})
       </div>
     `;
         return div;
