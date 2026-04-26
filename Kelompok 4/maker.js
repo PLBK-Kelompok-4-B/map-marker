@@ -6,7 +6,13 @@ const markersDiki = [
   },
 ];
 
-const markersDayat = [];
+const markersDayat = [
+  {
+    nama: "Rumah Dayat",
+    lat: 5.526095452400397,
+    lng: 95.31252653717662,
+  },
+];
 
 const markersMirdas = [
   {
