@@ -27,5 +27,13 @@ const markersGudang = [
     nama: "Gudang Kopi",
     lat: 5.571398188566312,
     lng: 95.3499128301265,
-  }
-]
+  },
+];
+
+const markersKampus = [
+  {
+    nama: "Universitas Syiah Kuala",
+    lat: 5.568819,
+    lng: 95.367926,
+  },
+];
