@@ -37,3 +37,11 @@ const markersKampus = [
     lng: 95.367926,
   },
 ];
+
+const markersAAC = [
+  {
+    nama: "Gedung AAC Dayan Dawood",
+    lat: 5.5709283633807285,
+    lng: 95.36852419484764,
+  },
+];
