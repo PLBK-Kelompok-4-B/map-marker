@@ -38,10 +38,18 @@ const markersKampus = [
   },
 ];
 
-const markersAAC = [
+const markersGedungAAC = [
   {
     nama: "Gedung AAC Dayan Dawood",
     lat: 5.5709283633807285,
     lng: 95.36852419484764,
   },
 ];
+
+const markersPolda = [
+  {
+    nama: "Polda Aceh",
+    lat: 5.579114445559991,
+    lng: 95.34867212797684,
+  }
+]

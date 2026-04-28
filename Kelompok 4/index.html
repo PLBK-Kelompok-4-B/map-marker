@@ -42,6 +42,8 @@
         mirdas: "#1abc9c",
         gudang: "#e74c3c",
         kampus: "#e67e22",
+        gedungAAC: "#9b59b6",
+        polda: "#1abc9c",
       };
 
       const daftarLokasi = [];
@@ -87,6 +89,8 @@
       tambahMarkers(markersMirdas, warna.mirdas, "Amirul Mirdas");
       tambahMarkers(markersGudang, warna.gudang, "Amirul Mirdas");
       tambahMarkers(markersKampus, warna.kampus, "Diki");
+      tambahMarkers(markersGedungAAC, warna.gedungAAC, "Dayyat");
+      tambahMarkers(markersPolda, warna.polda, "Amirul Mirdas");
 
       function renderLokasiButtons() {
         const container = document.getElementById("lokasi-buttons");
@@ -119,7 +123,9 @@
         markersDayat.length +
         markersMirdas.length +
         markersGudang.length +
-        markersKampus.length;
+        markersKampus.length +
+        markersPolda.length +
+        markersGedungAAC.length;
       document.getElementById("total-marker").textContent = total + " lokasi";
 
       const legend = L.control({ position: "bottomright" });
@@ -141,6 +147,12 @@
       </div>
        <div class="legend-item">
         <div class="legend-dot" style="background:${warna.kampus}"></div> Kampus (${markersKampus.length})
+      </div>
+      <div class="legend-item">
+        <div class="legend-dot" style="background:${warna.gedungAAC}"></div> Gedung AAC (${markersGedungAAC.length})
+      </div>
+      <div class="legend-item">
+        <div class="legend-dot" style="background:${warna.polda}"></div> Polda Aceh (${markersPolda.length})
       </div>
     `;
         return div;
