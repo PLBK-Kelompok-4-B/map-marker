@@ -44,6 +44,7 @@
         kampus: "#e67e22",
         gedungAAC: "#9b59b6",
         polda: "#1abc9c",
+        lhokketapang: "#9b59b6",
       };
 
       const daftarLokasi = [];
@@ -91,6 +92,7 @@
       tambahMarkers(markersKampus, warna.kampus, "Diki");
       tambahMarkers(markersGedungAAC, warna.gedungAAC, "Dayyat");
       tambahMarkers(markersPolda, warna.polda, "Amirul Mirdas");
+      tambahMarkers(markersKetapang, warna.lhokketapang, "Diki");
 
       function renderLokasiButtons() {
         const container = document.getElementById("lokasi-buttons");
@@ -153,6 +155,9 @@
       </div>
       <div class="legend-item">
         <div class="legend-dot" style="background:${warna.polda}"></div> Polda Aceh (${markersPolda.length})
+      </div>
+       <div class="legend-item">
+        <div class="legend-dot" style="background:${warna.lhokketapang}"></div> Lhok Keutapang Raya (${markersKetapang.length})
       </div>
     `;
         return div;

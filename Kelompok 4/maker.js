@@ -51,5 +51,13 @@ const markersPolda = [
     nama: "Polda Aceh",
     lat: 5.579114445559991,
     lng: 95.34867212797684,
-  }
-]
+  },
+];
+
+const markersKetapang = [
+  {
+    nama: "Lhok Keutapang Raya",
+    lat: 5.559323,
+    lng: 95.215855,
+  },
+];
